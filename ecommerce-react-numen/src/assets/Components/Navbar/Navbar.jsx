@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import SecondNavbar from './SecondNavbar';
+import Cart from '../Cart/Cart';
 
 const Navbar = () => {
     let Links= [
@@ -13,6 +14,7 @@ const Navbar = () => {
         {name:"HOT SALE",link:"/"},
     ]
     const [open,Setopen]= useState(false);
+   
 
   return (
     <div className='fixed top-0 left-0 w-full shadow-md'>
@@ -38,9 +40,7 @@ const Navbar = () => {
                             <a href={link.link}>{link.name}</a>
                         </li>
                     ))}
-                    <li className='ml-8 text-xl text-white duration-500 md: hover:text-lime-500'>
-                        <ion-icon name="cart-outline"></ion-icon>
-                    </li>
+                    <Cart/>
                 </ul>
         
         </div>
