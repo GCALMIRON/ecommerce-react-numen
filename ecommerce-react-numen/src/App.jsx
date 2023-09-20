@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './assets/Components/Navbar/Navbar'
-import Modal from './assets/Modal/Modal'
+import Modal from './assets/Components/Modal/Modal'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +10,6 @@ function App() {
     <>
     <div className='w-full h-screen'>
         <Navbar/>
-        <Modal/>
     </div>
     </>
   )

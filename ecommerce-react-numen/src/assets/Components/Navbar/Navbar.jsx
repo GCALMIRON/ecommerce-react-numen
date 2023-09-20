@@ -12,7 +12,7 @@ const Navbar = () => {
         {name:"CATEGORIAS",link:"/"},
         {name:"HOT SALE",link:"/"},
     ]
-    let [open,Setopen]= useState(false);
+    const [open,Setopen]= useState(false);
 
   return (
     <div className='fixed top-0 left-0 w-full shadow-md'>
