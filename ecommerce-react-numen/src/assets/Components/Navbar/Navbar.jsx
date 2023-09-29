@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import SecondNavbar from './SecondNavbar';
 import Cart from '../Cart/Cart';
+import Categories from './Categories';
 
 const Navbar = () => {
     let Links= [
@@ -10,7 +11,7 @@ const Navbar = () => {
         {name:"CONTACTO",link:"/"},
     ]
     let Links2= [
-        {name:"CATEGORIAS",link:"/"},
+        {name:<Categories/>},
         {name:"HOT SALE",link:"/"},
     ]
     const [open,Setopen]= useState(false);
@@ -42,7 +43,6 @@ const Navbar = () => {
                     ))}
                     <Cart/>
                 </ul>
-        
         </div>
         <SecondNavbar/>
     </div>
