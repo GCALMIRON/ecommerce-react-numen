@@ -7,13 +7,13 @@ const SecondNavbar = () => {
     
   return (
     
-    <div className='justify-center hidden w-full p-2 md:flex'>
+    <div className='z-40 justify-center hidden w-full p-2 md:flex'>
         <div className='flex justify-center mr-14'>
         <ul className='flex text-sm '>
             <li className='m-2 duration-500 hover:text-lime-500'>
                 <a href="/">HOT SALE</a>
             </li>
-            <li className='m-2'>
+            <li className='z-50 m-2'>
                 <Categories/>
             </li>
         

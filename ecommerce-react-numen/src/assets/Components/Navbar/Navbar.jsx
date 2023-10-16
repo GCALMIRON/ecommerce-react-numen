@@ -18,7 +18,7 @@ const Navbar = () => {
    
 
   return (
-    <div className='fixed top-0 left-0 w-full shadow-md'>
+    <div className='top-0 left-0 z-40 w-full shadow-md scroll-auto '>
         <div className='items-center justify-between py-4 bg-gray-800 md:flex md:px-10 px-7'>
             <div  className='bg-yellow-300 ml-5 w-36 text-xl rounded-full flex place-items-center justify-center font-[Poppins]'>
                     <ion-icon name="game-controller-outline"></ion-icon>

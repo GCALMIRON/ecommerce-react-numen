@@ -4,28 +4,30 @@ import facebookImage from './Imagenes/facebook.png';
 import whatsappImage from './Imagenes/whatsapp.png';
 import instagramImage from './Imagenes/instagram.png';
 import gmailImage from './Imagenes/gmail.png';
+import pacmanEating from './Imagenes/pacman-eating-dots.gif';
 
 const footerStyles = {
   fontFamily: 'poppins',
   fontColor: 'white',
-  position: 'fixed',
+  position: 'relative',
   bottom: 0,
   width: '100%',
   display: 'flex',
   color: 'white',
   justifyContent: 'space-between',
   alignItems: 'center',
-  padding: '10px',
+  padding: '15px',
   transition: 'transform 0.3s ease',
 };
 
 const buttonStyles = {
   fontFamily: 'poppins',
-  color: 'black',
+  fontColor:'black',
   border: 'none',
   padding: '5px',
   borderRadius: '5px',
   cursor: 'pointer',
+  transition: 'backgroun-color 0.9s ease',
 };
 
 const logoTipos = {
@@ -39,6 +41,7 @@ const logoTiposImg = {
   width: '4vw',
   height: '4vw',
   cursor: 'pointer',
+  borderRadius: '20px',
 };
 
 const textStyle = {
@@ -70,44 +73,62 @@ const Footer = () => {
     window.open('https://mail.google.com', '_blank');
   };
 
+  const agrandarImagen = (e) => {
+    e.target.style.transform = 'scale(1.2)';
+  }
+const resetearImagen = (e) => {
+  e.target.style.transform = 'scale(1)';
+}
   return (
     <div>
-      <br /> <br /> <br /> <br />
-      <p>
-        
-      </p>
-      <footer className='backgraounColor: bg-gray-900' style={footerStyles}>
-        <button className='backgraunColor: bg-yellow-400' style={buttonStyles} onClick={scrollToTop}>
-          Inicio
+      <footer className='bg-gray-900 backgrounColor:' style={footerStyles}>
+        <button  className='bg-yellow-400 backgrounColor:'
+                 style={buttonStyles}
+                 onMouseEnter={agrandarImagen}
+                 onMouseLeave={resetearImagen}
+                 onClick={scrollToTop}
+                 >
+         <img src={pacmanEating} alt="pacmanEating" 
+              style={{whidth: '4vw',
+                    height: '4vw', }}/>
+                    <b style={{color: 'black'}}><i>Inicio</i></b>
         </button>
         <p style={textStyle}>
-          Agradecemos que hayas llegado hasta aquí.
+          <h2 style={{fontSize: '3vw'}} ><b> Agradecemos que hayas llegado hasta aquí. </b></h2>
           <br />
-          No dudes en contactarnos...
+          <b style={{fontSize: '2vw'}}><i>No dudes en contactarnos...</i></b>
         </p>
         <div style={logoTipos}>
           <img
-            style={logoTiposImg}
+            style={logoTiposImg} 
             src={facebookImage}
             alt="facebook.png"
+            onMouseEnter={agrandarImagen}
+            onMouseLeave={resetearImagen}
             onClick={openFacebook}
           />
           <img
             style={logoTiposImg}
             src={whatsappImage}
             alt="whatsapp.png"
+            onMouseEnter={agrandarImagen}
+            onMouseLeave={resetearImagen}
             onClick={openWhatsApp}
           />
           <img
             style={logoTiposImg}
             src={instagramImage}
             alt="instagram.png"
+            onMouseEnter={agrandarImagen}
+            onMouseLeave={resetearImagen}
             onClick={openInstagram}
           />
           <img
             style={logoTiposImg}
             src={gmailImage}
             alt="gmail.png"
+            onMouseEnter={agrandarImagen}
+            onMouseLeave={resetearImagen}
             onClick={openGmail}
           />
         </div>
