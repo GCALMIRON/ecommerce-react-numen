@@ -19,7 +19,9 @@ const [isopen,setIsopen] = useState (false);
 
   return (
    <div className='mr-5'>
-    <button onClick={()=> setIsopen(true)} className='hover:text-lime-500'>CATEGORIAS <ion-icon name="caret-down-outline"></ion-icon></button>
+    <button onClick={()=> setIsopen(true)} className='hover:text-lime-500'>
+      CATEGORIAS <ion-icon name="caret-down-outline"></ion-icon>
+      </button>
     {
       isopen && (
         <div className='rounded-lg p-1 absolute flex flex-col items-center border-transparent border-solid top-[250px] sm:bg-gray-800 bg-gray-600 ml-20 sm:top-[100px] sm:ml-0'>

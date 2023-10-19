@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import SecondNavbar from './SecondNavbar';
-import Cart from '../Cart/Cart';
+import Cart from './Cart';
 import Categories from './Categories';
 
 const Navbar = () => {
