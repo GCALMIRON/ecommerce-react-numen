@@ -13,7 +13,7 @@ const SecondNavbar = () => {
             <li className='m-2 duration-500 hover:text-lime-500'>
                 <a href="/">HOT SALE</a>
             </li>
-            <li className='z-50 m-2'>
+            <li className='z-30 m-2'>
                 <Categories/>
             </li>
         
