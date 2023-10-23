@@ -13,10 +13,12 @@ const footerStyles = {
   bottom: 0,
   width: '100%',
   display: 'flex',
+  flexDirection:'column',
+  alignItems:'center',
   color: 'white',
   justifyContent: 'space-between',
   alignItems: 'center',
-  padding: '15px',
+  padding: '1vw',
   transition: 'transform 0.3s ease',
 };
 
@@ -24,8 +26,8 @@ const buttonStyles = {
   fontFamily: 'poppins',
   fontColor:'black',
   border: 'none',
-  padding: '5px',
-  borderRadius: '5px',
+  padding: '0,5vw',
+  borderRadius: '3vw',
   cursor: 'pointer',
   transition: 'backgroun-color 0.9s ease',
 };
@@ -87,16 +89,15 @@ const resetearImagen = (e) => {
                  onMouseEnter={agrandarImagen}
                  onMouseLeave={resetearImagen}
                  onClick={scrollToTop}
-                 >
-         <img src={pacmanEating} alt="pacmanEating" 
-              style={{whidth: '4vw',
-                    height: '4vw', }}/>
-                    <b style={{color: 'black'}}><i>Inicio</i></b>
+                 
+                 ><b className='text-sm text-white duration-500 md: hover:text-lime-500 md' >Inicio</b>
+                  
         </button>
-        <p style={textStyle}>
-          <h2 style={{fontSize: '3vw'}} ><b> Agradecemos que hayas llegado hasta aquí. </b></h2>
-          <br />
-          <b style={{fontSize: '2vw'}}><i>No dudes en contactarnos...</i></b>
+        <p style={{...textStyle, textAlign: 'center'}}>
+          <h2 style={{fontSize: '2vw'}} ><b className='ml-10 text-sm text-white duration-500 md: hover:text-lime-500 md:my-0 my-7'>
+             AGRADECEMOS QUE HAYAS LLEGADO HASTA AQUI <br />NO DUDES EN CONTACTARNOS... </b></h2>
+        
+      
         </p>
         <div style={logoTipos}>
           <img
