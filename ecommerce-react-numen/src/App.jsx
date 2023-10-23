@@ -6,6 +6,7 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Shopping from './assets/Components/Shop/Shopping';
 import ShoppingProvider from './assets/context/ShoppingContext';
 import Cart from './assets/Components/Navbar/Cart';
+import ProductsProvider from './assets/context/ProductsContext';
 
 
 
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <div className='w-full h-screen'>
+  <ProductsProvider>
     <ShoppingProvider>
       <Router>
         <Navbar/>
@@ -27,6 +29,7 @@ function App() {
         {/* <Footer/> */}
       </Router>
       </ShoppingProvider>
+  </ProductsProvider>
     </div>
     </>
   )

@@ -1,6 +1,6 @@
 import React, { useContext, useReducer } from 'react'
 import { useState } from 'react';
-import { CartContext } from '../../Context/ShoppingContext';
+import { CartContext } from '../../context/ShoppingContext';
 import { Link } from 'react-router-dom';
 import Shopping from '../Shop/Shopping';
 

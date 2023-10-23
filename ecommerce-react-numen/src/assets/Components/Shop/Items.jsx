@@ -1,10 +1,11 @@
-import React, { useContext } from 'react'
+import React, { useContext} from 'react'
 import { CartContext } from '../../context/ShoppingContext';
 
 const Items = ({id,nombre,precio,foto,datos}) => {
   
   const [cart,setCart]= useContext(CartContext);
-  
+
+ 
 
   const addToCart= ()=> {
     setCart((currentItems)=> {
@@ -18,7 +19,7 @@ const Items = ({id,nombre,precio,foto,datos}) => {
           } 
         });
       }else{
-        return [...currentItems, {id,quantity:1,price,name,img}]
+        return [...currentItems, {id,quantity:1,precio,nombre,foto}]
       }
     })
   }
