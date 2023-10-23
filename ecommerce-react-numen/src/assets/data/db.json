@@ -1,454 +1,424 @@
 {
-    "Productos": {
-
-        "almacenamiento": [
+    "products": [
             {
-                "id": "rig001",
+                "id": 0,
                 "nombre": "Disco Rígido Toshiba",
                 "datos": "Disco Rigido Hdd 1Tb 2,5 Toshiba Pc L200 Hdwl110",
-                "foto": "./src/Db/img/rig001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/rig001.jpg",
+                "precio": 70.200
             },
             {
-                "id": "rig002",
+                "id": 1,
                 "nombre": "Disco Rígido Seagate",
                 "datos": "Disco Rigido Hdd 2Tb 3,5 Seagate Barracuda St2000dm008",
-                "foto": "./src/Db/img/rig002.jpg",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/rig002.jpg",
+                "precio": 100.000
             },
             {
-                "id": "rig003",
+                "id": 2,
                 "nombre": "Disco Rígido WD",
                 "datos": "Disco Rigido Hdd 1Tb 2,5 Western Digital Blue Wd10spzx",
-                "foto": "./src/Db/img/rig003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/rig003.jpg",
+                "precio": 85.000
             },
             {
-                "id": "rig004",
+                "id": 3,
                 "nombre": "Disco Sólido Kingston 240Gb",
                 "datos": "Disco Solido Ssd 240Gb Kingston A400 Sata",
-                "foto": "./src/Db/img/rig004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/rig004.jpg",
+                "precio": 35.000
             },
             {
-                "id": "rig005",
+                "id": 4,
                 "nombre": "Disco Sólido Kingston 1Tb",
                 "datos": "Disco Solido Ssd 1Tb Kingston Nv2 M2 Pcie Gen4",
-                "foto": "./src/Db/img/rig005.jpg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/rig005.jpg",
+                "precio": 50.000
             },
             {
-                "id": "rig006",
+                "id": 5,
                 "nombre": "Disco Sólido Western Digital 1TB",
                 "datos": "Disco Solido Ssd 1Tb Western Digital Sn570 Blue M2 Pcie Gen3",
-                "foto": "./src/Db/img/rig006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "sillas": [
+                "foto": "./src/assets/data/img/rig006.jpg",
+                "precio": 55.000
+            },
             {
-                "id": "sil001",
+                "id": 6,
                 "nombre": "Silla Gamer Noganet",
                 "datos": "Silla Gamer Noganet Stratos rosa y blanca",
-                "foto": "./src/Db/img/sil001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/sil001.jpg",
+                "precio": 47.000
             },
             {
-                "id": "sil002",
+                "id": 7,
                 "nombre": "Silla Gamer Argentina",
                 "datos": "Silla Gamer AFA Selección Argentina",
-                "foto": "./src/Db/img/sil002.jpg",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/sil002.jpg",
+                "precio": 60.000
             },
             {
-                "id": "sil003",
+                "id": 8,
                 "nombre": "Silla Gamer Shenlong",
                 "datos": "Silla Gamer Shenlong SCH-RGB155 negro y rojo",
-                "foto": "./src/Db/img/sil003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/sil003.jpg",
+                "precio": 80.000
             },
             {
-                "id": "sil004",
+                "id": 9 ,
                 "nombre": "Silla Gamer Noganet",
                 "datos": "Silla Gamer Noganet Typhon RGB",
-                "foto": "./src/Db/img/sil004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/sil004.jpg",
+                "precio": 55.500
             },
             {
-                "id": "sil005",
+                "id": 10,
                 "nombre": "Silla Gamer Thunder TC3",
                 "datos": "Silla Gamer Thunder TC3 Artic White (by Aerocool)",
-                "foto": "./src/Db/img/sil005.jpg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/sil005.jpg",
+                "precio": 90.000
             },
             {
-                "id": "sil006",
+                "id": 11,
                 "nombre": "Silla Gamer Redgradon",
                 "datos": "Silla Gamer Redragon Caprocornus C502 All Black",
-                "foto": "./src/Db/img/sil006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "perifericos": [
+                "foto": "./src/assets/data/img/sil006.jpg",
+                "precio": 100.000
+            },
             {
-                "id": "per001",
+                "id": 12,
                 "nombre": "NZXT Función MiniTKL ",
                 "datos": "Teclado compacto para juegos sin llave - Interruptores mecánicos rojos Gateron: lineal, rápido y silencioso - intercambiable en caliente - retroiluminación RGB - Placa superior de aluminio - Espuma amortiguadora de sonido - Negro",
-                "foto": "./src/Db/img/per001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/per001.jpg",
+                "precio": 269.000
             },
             {
-                "id": "per002",
+                "id": 13,
                 "nombre": "Razer Ornata V3 X",
                 "datos": "Teclado para juegos: teclas de perfil bajo - Interruptores de membrana silenciosos - Resistente a derrames - Iluminación Chroma RGB - Reposamuñecas ergonómico - Negro clásico",
-                "foto": "./src/Db/img/per002.jpg",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/per002.jpg",
+                "precio": 115.000
             },
             {
-                "id": "per003",
+                "id": 14,
                 "nombre": "REDRAGON S101",
                 "datos": "Set combo. 104 teclas estándar, 19 teclas sin conflictos, 12 teclas multimedia, a prueba de salpicaduras, intercambiables letras-teclas y teclas-Flecha, llaves, Win se puede desactivar para gaming.",
-                "foto": "./src/Db/img/per003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/per003.jpg",
+                "precio": 80.000
             },
             {
-                "id": "per004",
+                "id": 15,
                 "nombre": "SteelSeries Apex 3 RGB",
                 "datos": "Teclado para videojuegos - Iluminación RGB de 10 zonas - Resistente al agua IP32 - Reposamuñecas magnético de alta calidad (interruptor silencioso para juegos)",
-                "foto": "./src/Db/img/per004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/per004.jpg",
+                "precio": 100.000
             },
             {
-                "id": "per005",
+                "id": 16,
                 "nombre": "ROCCAT Magma",
                 "datos": "Teclado para juegos de PC con interruptor de membrana silencioso con 5 zonas/10 LED AIMO RGB y reposamanos desmontable, color negro",
-                "foto": "./src/Db/img/per005.jpg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/per005.jpg",
+                "precio": 75.000
             },
             {
-                "id": "per006",
+                "id": 17,
                 "nombre": "ASUS ROG Falchion Ace",
                 "datos": "Teclado mecánico compacto para juegos 65% RGB, interruptores ROG NX marrones y estabilizadores de interruptor, espuma amortiguadora de sonido, teclas PBT, cable con KVM, tres ángulos, funda negra",
-                "foto": "./src/Db/img/per006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "monitores": [
+                "foto": "./src/assets/data/img/per006.jpg",
+                "precio": 180.000
+            },
             {
-                "id": "mon001",
+                "id": 18,
                 "nombre": "Sceptre 27 pulgadas",
                 "datos": "Sceptre Monitor para juegos de 27 pulgadas 240Hz AMD FreeSync Premium HDMI DisplayPort Altavoces integrados Máquina Negro 2024 (Serie FWD240)",
-                "foto": "./src/Db/img/mon001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/mon001.jpg",
+                "precio": 500.000
             },
             {
-                "id": "mon002",
+                "id": 19,
                 "nombre": "Koorui 22 pulgadas",
                 "datos": "Monitor de computadora de 22 pulgadas, pantalla de escritorio FHD 1080P, bisel ultrafino/cuidado de los ojos/inclinación ergonómica, puertos HDMI VGA Monitor LED para PC, montaje VESA",
-                "foto": "./src/Db/img/mon002.jpg",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/mon002.jpg",
+                "precio": 430.000
             },
             {
-                "id": "mon003",
+                "id": 20,
                 "nombre": "Acer 21,5 pulgadas",
                 "datos": "Acer SB220Q bi - Monitor de 21.5 pulgadas Full HD (1920 x 1080), monitor IPS Ultra delgado, diseño Zero Frame sin marco (puertos HDMI y VGA), color negro",
-                "foto": "./src/Db/img/mon003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/mon003.jpg",
+                "precio": 480.000
             },
             {
-                "id": "mon004",
+                "id": 21,
                 "nombre": "Samsung 22 pulgadas",
                 "datos": "Monitor de computadora FHD 1080p de 22 pulgadas serie T350, 75Hz, panel IPS, HDMI, VGA (D-Sub), sin bordes de 3 lados, FreeSync",
-                "foto": "./src/Db/img/mon004.png",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/mon004.png",
+                "precio": 600.000
             },
             {
-                "id": "mon005",
+                "id": 22,
                 "nombre": "BENQ 27 pulgadas",
                 "datos": "Monitor de computadora GW2780 IPS 1080P FHD de 27 pulgadas con altavoces integrados, tecnología patentada de cuidado de los ojos, brillo adaptable para calidad de imagen, bisel ultra delgado y pantalla de borde a borde",
-                "foto": "./src/Db/img/mon005.jpeg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/mon005.jpeg",
+                "precio": 570.000
             },
             {
-                "id": "mon006",
+                "id": 23,
                 "nombre": "Asus 21,5 pulgadas",
                 "datos": "Monitor VP229Q de 21.5 pulgadas, 1080P Full HD, 75Hz, IPS, FreeSync/Adaptive-Sync, Cuidado de los ojos, HDMI DisplayPort VGA, sin marco, VESA Montaje en Pared NEGRO",
-                "foto": "./src/Db/img/mon006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "gabinetes": [
+                "foto": "./src/assets/data/img/mon006.jpg",
+                "precio": 460.000
+            },
             {
-                "id": "gab001",
+                "id": 24,
                 "nombre": "Corsair 4000D Airflow",
                 "datos": "Gabinete ATX semitorre para PC con vidrio templado, color negro",
-                "foto": "./src/Db/img/gab001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/gab001.jpg",
+                "precio": 420.000
             },
             {
-                "id": "gab002",
+                "id": 25,
                 "nombre": "Corsair 5000D Airflow",
                 "datos": "Gabinete ATX semitorre para PC con vidrio templado, color negro",
-                "foto": "./src/Db/img/gab002.jpg",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/gab002.jpg",
+                "precio": 500.000
             },
             {
-                "id": "gab003",
+                "id": 26,
                 "nombre": "Corsair ICUE 4000x RGB",
                 "datos": "Gabinete ATX semitorre para PC, color blanco",
-                "foto": "./src/Db/img/gab003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/gab003.jpg",
+                "precio": 530.000
             },
             {
-                "id": "gab004",
+                "id": 27,
                 "nombre": "Lian Li, PC-O11 Dynamic Razer Edition ",
                 "datos": "Gabinete para computadora gamer, cristal templado ATX, torre media, PC-O11D Razer",
-                "foto": "./src/Db/img/gab004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/gab004.jpg",
+                "precio": 420.000
             },
             {
-                "id": "gab005",
+                "id": 28,
                 "nombre": "Asus Tuf Gaming GT501",
                 "datos": "Gabinete para computadora de media torre para tarjetas madre EATX con USB 3.0 GT501/GRY/CON asa",
-                "foto": "./src/Db/img/gab005.jpg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/gab005.jpg",
+                "precio": 600.000
             },
             {
-                "id": "gab006",
+                "id": 29,
                 "nombre": "NZXT H9 Flow",
                 "datos": "Gabinete para PC gamer de media torre ATX de doble cámara, panel superior perforado de alto flujo de aire, paneles frontales y laterales de vidrio templado, soporte de radiador de 14.173 in, gestión de cables, color blanco",
-                "foto": "./src/Db/img/gab006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "refrigeracion": [ 
+                "foto": "./src/assets/data/img/gab006.jpg",
+                "precio": 300.000
+            },
             {
-                "id": "ref001",
+                "id": 30,
                 "nombre": "Corsair H100x",
                 "datos": "Enfriador líquido H100x RGB Elite para computadora de escritorio, 32 LEDs dinámicos Serie SP120 Ventiladores PWM con tecnología AirGuide Intel® LGA 1700, 1200, 115X, 2066, AMD® AM5/AM4 Sockets Negro",
-                "foto": "./src/Db/img/ref001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/ref001.jpg",
+                "precio": 23.000
             },
             {
-                "id": "ref002",
+                "id": 31,
                 "nombre": "NZKT Kraken Elite",
                 "datos": "Enfriador líquido de CPU AIO de 14.173 in - Pantalla LCD personalizable de 2.36 pulgadas para imágenes, métricas de rendimiento - Bomba de alto rendimiento - 3 ventiladores de núcleo RGB F120 – Blanco",
-                "foto": "./src/Db/img/ref002.png",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/ref002.png",
+                "precio": 50.000
             },
             {
-                "id": "ref003",
+                "id": 32,
                 "nombre": "MSI MAG 360R",
                 "datos": "MSI MAG CoreLiquid 360R V2 - Enfriador líquido de CPU AIO ARGB - Diseño de tapa giratoria - Listo para LGA 1700 - Radiador de 14.173 in - Ventiladores triple PWM RGB de 4.724 pulgadas",
-                "foto": "./src/Db/img/ref003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/ref003.jpg",
+                "precio": 45.000
             },
             {
-                "id": "ref004",
+                "id": 33,
                 "nombre": "MSI MAG 240R",
                 "datos": "MSI MAG CoreLiquid 240R V2 - Enfriador líquido de CPU AIO ARGB - Diseño de tapa giratoria - Listo para LGA 1700 - Radiador de 9.449 in - Ventiladores dobles ARGB PWM de 4.724 pulgadas",
-                "foto": "./src/Db/img/ref004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/ref004.jpg",
+                "precio": 60.000
             },
             {
-                "id": "ref005",
+                "id": 34,
                 "nombre": "Corsair iCUE H150i",
                 "datos": "Enfriador líquido de computadora de escritorio - Tres ventiladores AF120 RGB Elite - Radiador de 14.173 in - Intel® LGA 1700, 1200, 115X, 2066, AMD® AM5, AM4 - Incluye iCUE Commander CORE – Negro",
-                "foto": "./src/Db/img/ref005.jpg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/ref005.jpg",
+                "precio": 50.000
             },
             {
-                "id": "ref006",
+                "id": 35,
                 "nombre": "NZKT Kraken 240",
                 "datos": "Enfriador líquido de CPU AIO de 9.449 in - Pantalla LCD cuadrada personalizable de 1.54 pulgadas para imágenes, métricas de rendimiento y más - Bomba de alto rendimiento - 2 ventiladores F120P – Negro",
-                "foto": "./src/Db/img/ref006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "memorias": [
+                "foto": "./src/assets/data/img/ref006.jpg",
+                "precio": 65.000
+            },
             {
-                "id": "ram001",
+                "id": 36,
                 "nombre": "Corsaire Vengeance 4800 MHz",
                 "datos": "DDR5 RAM 32 GB (2 x 16 GB) 4800 MHz CL40 Intel XMP iCUE Memoria de computadora compatible – Negro",
-                "foto": "./src/Db/img/ram001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/ram001.jpg",
+                "precio": 73.000
             },
             {
-                "id": "ram002",
+                "id": 37,
                 "nombre": "Corsaire Vengeance 5600 MHz",
                 "datos": "DDR5 RAM 32 GB (2 x 16 GB) 5600 MHz CL36 Intel XMP iCUE Memoria de computadora compatible – Negro",
-                "foto": "./src/Db/img/ram002.jpg",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/ram002.jpg",
+                "precio": 82.000
             },
             {
-                "id": "ram003",
+                "id": 38,
                 "nombre": "Corsaire Vengeance 6000 MHz",
                 "datos": "DDR5 RAM 32 GB (2 x 16 GB) 6000 MHz CL36 Intel XMP iCUE Memoria de computadora compatible – Blanco",
-                "foto": "./src/Db/img/ram003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/ram003.jpg",
+                "precio": 98.000
             },
             {
-                "id": "ram004",
+                "id": 39,
                 "nombre": "Lexar Ares RGB",
                 "datos": "32 GB (2 x 16 GB) DDR5 RAM 6400MT/s CL32 Memoria de escritorio - Intel XMP 3.0 (negro)",
-                "foto": "./src/Db/img/ram004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/ram004.jpg",
+                "precio": 85.000
             },
             {
-                "id": "ram005",
+                "id": 40,
                 "nombre": "G. Skill Trident Z5",
                 "datos": "RGB Series (Intel XMP) 64 GB (2 x 32 GB) 288 pines SDRAM DDR5 6400 CL32-39-39-102 1.40V Memoria de escritorio de doble canal",
-                "foto": "./src/Db/img/ram005.jpg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/ram005.jpg",
+                "precio": 115.000
             },
             {
-                "id": "ram006",
+                "id": 41,
                 "nombre": "G. Skill Flare X5",
                 "datos": "(AMD Expo) DDR5 RAM 32 GB (2 x 16 GB) 6000MT/s CL36-36-36-96 1.35V Memoria de computadora de escritorio UDIMM - Negro mate",
-                "foto": "./src/Db/img/ram006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "video": [
+                "foto": "./src/assets/data/img/ram006.jpg",
+                "precio": 170.000
+            },
             {
-                "id": "pla001",
+                "id": 42,
                 "nombre": "Gigabyte GeForce RTX 3060 Gaming",
                 "datos": "OC 12G (REV2.0), 3 ventiladores WINDFORCE, 12GB 192-bit GDDR6, GV-N3060GAMING OC-12GD tarjeta de video",
-                "foto": "./src/Db/img/pla001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/pla001.jpg",
+                "precio": 1.300
             },
             {
-                "id": "pla002",
+                "id": 43,
                 "nombre": "Sparkle Intel Arc A770 Titan",
                 "datos": "OC Edition, 16 GB GDDR6, ThermalSync, refrigeración rasgada, ventilador axial, placa trasera de metal, SA770T-16GOC",
-                "foto": "./src/Db/img/pla002.jpg",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/pla002.jpg",
+                "precio": 1000.000
             },
             {
-                "id": "pla003",
+                "id": 44,
                 "nombre": "Gigabyte Tarjeta gráfica GeForce RTX 4060 AERO",
                 "datos": "OC 8G, 3 ventiladores WINDFORCE, 8 GB 128 bits GDDR6, tarjeta de video GV-N4060AERO OC-8GD",
-                "foto": "./src/Db/img/pla003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/pla003.jpg",
+                "precio": 1000.000
             },
             {
-                "id": "pla004",
+                "id": 45,
                 "nombre": "Gigabyte Tarjeta gráfica GeForce RTX 4060 Eagle",
                 "datos": "OC 8G, 3 ventiladores WINDFORCE, 8 GB 128 bits GDDR6, tarjeta de video GV-N4060EAGLE OC-8GD",
-                "foto": "./src/Db/img/pla004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/pla004.jpg",
+                "precio": 1200.000
             },
             {
-                "id": "pla005",
+                "id": 46,
                 "nombre": "Gigabyte Tarjeta gráfica GeForce RTX 4070 windforce",
                 "datos": "OC 12G, 3 ventiladores WINDFORCE, 12 GB 192 bits GDDR6X, tarjeta de video GV-N4070WF3OC-12GD",
-                "foto": "./src/Db/img/pla005.jpeg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/pla005.jpeg",
+                "precio": 1320.000
             },
             {
-                "id": "pla006",
+                "id": 47,
                 "nombre": "MSI G1650VXS4C Gaming GeForce GTX 1650",
                 "datos": "128-Bit HDMI/DP 4GB GDRR5 HDCP Support DirectX 12 VR Ready OC Tarjeta gráfica (GTX 1650 Ventus XS 4G OC)",
-                "foto": "./src/Db/img/pla006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "mothers": [
+                "foto": "./src/assets/data/img/pla006.jpg",
+                "precio": 600.000
+            },
             {
-                "id": "mot001",
+                "id": 48,
                 "nombre": "MSI MPG B550 Gaming Plus",
                 "datos": "Placa base para juegos (AMD AM4, Ryzen 5000 y 3000 Series, DDR4, PCIe 4.0, SATA 6Gb/s, M.2, USB 3.2 Gen 2, HDMI/DP, ATX) Placa base AMD para PC (renovada)",
-                "foto": "./src/Db/img/mot001.png",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/mot001.png",
+                "precio": 650.000
             },
             {
-                "id": "mot002",
+                "id": 49,
                 "nombre": "ASUS Prime B450M-A II AMD AM4",
                 "datos": "Ryzen 5000, placa base Ryzen Micro ATX de 3ª/2ª/1ª generación (128 GB DDR4, 4400 OC.), NVMe, HDMI 2.0b/DVI/D-Sub, USB 3.2 2, BIOS Flashback y sincronización Aura",
-                "foto": "./src/Db/img/mot002.png",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/mot002.png",
+                "precio": 170.000
             },
             {
-                "id": "mot003",
+                "id": 50,
                 "nombre": "ASUS ROG Strix B550-F Gaming",
                 "datos": "Tarjeta madre AMD AM4 Zen 3 Ryzen 5000 y 3ra gen., PCIe 4.0, LAN 2.5Gb, BIOS Flashback, HDMI 2.1, iluminación Aura Sync RGB direccionable de 2nda generación",
-                "foto": "./src/Db/img/mot003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/mot003.jpg",
+                "precio": 340.000
             },
             {
-                "id": "mot004",
+                "id": 51,
                 "nombre": "MSI MAG B550 Tomahawk",
                 "datos": "Placa base para juegos (AMD AM4, DDR4, PCIe 4.0, SATA 6Gb/s, M.2, USB 3.2 Gen 2, HDMI/DP, ATX, AMD Ryzen 5000 Series)",
-                "foto": "./src/Db/img/mot004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/mot004.jpg",
+                "precio": 370.000
             },
             {
-                "id": "mot005",
+                "id": 52,
                 "nombre": "Gigabyte A520M S2H",
                 "datos": "AMD Ryzen AM4/MicroATX/4+3 fases digital PWM/Gigabyte Gaming GbE LAN/NVMe PCIe 3.0 x4 M.2/3 Interfaces/Q-Flash Plus/RGB Fusion 2.0/placa madre",
-                "foto": "./src/Db/img/mot005.jpg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/mot005.jpg",
+                "precio": 400.000
             },
             {
-                "id": "mot006",
+                "id": 53,
                 "nombre": "MSI Placa base para juegos B550",
                 "datos": "Gaming GEN3 (AMD AM4, DDR4, PCIe 3.0, SATA 6Gb/s, M.2, USB 3.2 Gen 1, HDMI, ATX, AMD Ryzen 5000/4000 Series)",
-                "foto": "./src/Db/img/mot006.jpg",
-                "precio": 1020.00
-            }
-        ],
-
-        "procesadores": [
+                "foto": "./src/assets/data/img/mot006.jpg",
+                "precio": 300.000
+            },
             {
-                "id": "pro001",
+                "id": 54,
                 "nombre": "Intel Core i5-12600K",
                 "datos": "Procesador de Escritorio 10 (6P+4E) Núcleos de hasta 4.9 GHz Desbloqueado LGA1700 600 Series Chipset 125W",
-                "foto": "./src/Db/img/pro001.jpg",
-                "precio": 850.00
+                "foto": "./src/assets/data/img/pro001.jpg",
+                "precio": 300.000
             },
             {
-                "id": "pro002",
+                "id": 55,
                 "nombre": "Intel Core i7-12700KF",
                 "datos": "Procesador de escritorio para juegos 12 (8P+4E) núcleos hasta 5.0 GHz desbloqueado LGA1700 Serie 600 Chipset 125W",
-                "foto": "./src/Db/img/pro002.jpg",
-                "precio": 790.00
+                "foto": "./src/assets/data/img/pro002.jpg",
+                "precio": 370.000
             },
             {
-                "id": "pro003",
+                "id": 56,
                 "nombre": "Intel Core i9-12900K",
                 "datos": "Procesador de escritorio para juegos con gráficos integrados y 16 núcleos (8P+8E) hasta 5.2 GHz desbloqueado LGA1700 Serie 600 Chipset 125W",
-                "foto": "./src/Db/img/pro003.jpg",
-                "precio": 820.00
+                "foto": "./src/assets/data/img/pro003.jpeg",
+                "precio": 440.000
             },
             {
-                "id": "pro004",
+                "id": 57,
                 "nombre": "AMD Ryzen 5 5600X",
                 "datos": "6 núcleos y 12 hilos desbloqueados procesador de escritorio con Wraith Stealth Cooler",
-                "foto": "./src/Db/img/pro004.jpg",
-                "precio": 890.00
+                "foto": "./src/assets/data/img/pro004.jpg",
+                "precio": 420.000
             },
             {
-                "id": "pro005",
-                "nombre": "AMD Ryzen 5 5800X",
+                "id": 58,
+                "nombre": "AMD Ryzen 7 5800X",
                 "datos": "Procesador de escritorio desbloqueado de 8 núcleos, 16 hilos.",
-                "foto": "./src/Db/img/pro005.jpg",
-                "precio": 940.00
+                "foto": "./src/assets/data/img/pro005.jpeg",
+                "precio": 460.000
             },
             {
-                "id": "pro006",
-                "nombre": "AMD Ryzen 5 5900X",
+                "id": 59,
+                "nombre": "AMD Ryzen 9 5900X",
                 "datos": "Procesador de escritorio desbloqueado de 12 núcleos, 24 hilos.",
-                "foto": "./src/Db/img/pro006.jpg",
-                "precio": 1020.00
-            }
-        ]
-    }
+                "foto": "./src/assets/data/img/pro006.jpg",
+                "precio": 500.000
+            }  
+    ]
 }
