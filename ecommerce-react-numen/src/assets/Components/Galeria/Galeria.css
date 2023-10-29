@@ -1,0 +1,8 @@
+.Offerlist{
+    height: 31.25rem;
+    padding: 1.25rem;
+}
+.Offerlist > button {
+    background-color: gray;
+    opacity: 50%;
+}

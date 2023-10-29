@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { CartContext } from '../../context/ShoppingContext';
-import Items from './Items';
+import Items from './ItemsCard';
 import { ProductsContext } from '../../context/ProductsContext';
 
 const Shopping = (id) => {

@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Navbar from './assets/Components/Navbar/Navbar'
-import ItemList from './assets/Components/Shop/ItemList'
-
+import Galeria from './assets/Components/Galeria/Galeria'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Shopping from './assets/Components/Shop/Shopping';
 import ShoppingProvider from './assets/context/ShoppingContext';
@@ -24,7 +23,7 @@ function App() {
       <Router>
         <Navbar/>
           <Routes>
-            <Route path="/" element={<ItemList/>}/> 
+            <Route path="/" element={<Galeria/>}/> 
             <Route path="/cart" element={<Cart/>}/> 
           </Routes>
        <Footer/>
