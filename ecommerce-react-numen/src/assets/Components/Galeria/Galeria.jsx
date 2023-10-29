@@ -38,7 +38,7 @@ const productsOffers= newProducts.map((products)=> (
   return (
     <main className='flex flex-col w-full h-auto mt-5 mb-20'>
       <section className='flex items-center w-full h-auto'>
-          <img src="../src/assets/components/Galeria/img/imagenbienvenida.jpg" alt="imagen de bienvenida" className='object-cover w-full h-[50rem]' />
+          <img src="../src/assets/components/Galeria/img/imagenbienvenida.jpg" alt="imagen de bienvenida" className='object-cover w-full h-[50rem] -z-20' />
       </section>
       <section>
           <div className='flex justify-center mt-20 mb-10 border-2 border-black rounded-sm mx-9 hover:bg-gray-800 hover:text-lime-500'>
