@@ -299,7 +299,7 @@
                 "nombre": "Gigabyte GeForce RTX 3060 Gaming",
                 "datos": "OC 12G (REV2.0), 3 ventiladores WINDFORCE, 12GB 192-bit GDDR6, GV-N3060GAMING OC-12GD tarjeta de video",
                 "foto": "./src/assets/data/img/pla001.jpg",
-                "precio": 1.300
+                "precio": 1300.000
             },
             {
                 "id": 43,

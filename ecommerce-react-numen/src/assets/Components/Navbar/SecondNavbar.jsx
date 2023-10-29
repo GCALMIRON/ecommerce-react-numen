@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Categories from './Categories'
+import { Link } from 'react-router-dom'
 
 
 const SecondNavbar = () => {
@@ -11,7 +12,7 @@ const SecondNavbar = () => {
         <div className='flex justify-center mr-14'>
         <ul className='flex text-sm '>
             <li className='m-2 duration-500 hover:text-lime-500'>
-                <a href="/">HOT SALE</a>
+                <Link to="/Hotsale">HOT SALE</Link>
             </li>
             <li className='z-30 m-2'>
                 <Categories/>

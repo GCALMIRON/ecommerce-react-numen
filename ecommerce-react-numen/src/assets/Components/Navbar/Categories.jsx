@@ -1,19 +1,20 @@
 import React from 'react'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Categories = () => {
 const Categori= [
-  {name:"Equipos y Notebooks",link:"/"},
-  {name:"Procesadores",link:"/"},
-  {name:"Mothers",link:"/"},
-  {name:"Placas de video",link:"/"},
-  {name:"Memorias Ram",link:"/"},
-  {name:"Almacenamiento",link:"/"},
-  {name:"Refrigeracion",link:"/"},
-  {name:"Gabinetes",link:"/"},
-  {name:"Monitores",link:"/"},
-  {name:"Perifericos",link:"/"},
-  {name:"Sillas Gamers",link:"/"},
+  {name:"Equipos y Notebooks",link:"/Notebooks"},
+  {name:"Procesadores",link:"/Procesadores"},
+  {name:"Mothers",link:"/Mothers"},
+  {name:"Placas de video",link:"/PlacasVideo"},
+  {name:"Memorias Ram",link:"/Ram"},
+  {name:"Almacenamiento",link:"/Almacenamiento"},
+  {name:"Refrigeracion",link:"/Refri"},
+  {name:"Gabinetes",link:"/Gabinetes"},
+  {name:"Monitores",link:"/Monitores"},
+  {name:"Perifericos",link:"/Perifericos"},
+  {name:"Sillas Gamers",link:"/Sillas"},
 ]
 const [isopen,setIsopen] = useState (false);
 
@@ -27,8 +28,8 @@ const [isopen,setIsopen] = useState (false);
         <div className='rounded-lg p-1 absolute flex flex-col items-center border-transparent border-solid top-[250px] sm:bg-gray-800 bg-gray-600 ml-20 sm:top-[100px] sm:ml-0'>
           {Categori.map((Categori)=>(
             <ul>
-              <li key={Categori.name} className='mb-2 text-white hover:text-lime-500'>
-                <a href={Categori.link}>{Categori.name}</a>
+              <li className='mb-2 text-white hover:text-lime-500'>
+                <Link key={Categori.name}  to={Categori.link}>{Categori.name}</Link>
               </li>
             </ul>
           ))}
